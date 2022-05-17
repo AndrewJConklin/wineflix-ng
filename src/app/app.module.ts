@@ -5,11 +5,15 @@ import {AppComponent} from './app.component';
 
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
