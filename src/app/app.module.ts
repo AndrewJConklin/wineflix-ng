@@ -8,6 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
 import { MainComponent } from './main/main.component';
+import { LinkComponent } from './link/link.component';
+import { WineComponent } from './wine/wine.component';
+import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
+import { ControlComponent } from './control/control.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { MainComponent } from './main/main.component';
     HeaderComponent,
     NavComponent,
     HeroComponent,
-    MainComponent
+    MainComponent,
+    LinkComponent,
+    WineComponent,
+    KeepDrinkingComponent,
+    ControlComponent
   ],
   imports: [
     BrowserModule,

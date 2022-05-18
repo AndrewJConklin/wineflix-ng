@@ -1,24 +1,10 @@
 <div class="hero-content">
   <h2>
-    <img alt="Rex Goliath" src="/assets/rex-goliath-logo.png" />
+    <img alt="{{hero.title}}" src="{{hero.imageUrl}}" />
   </h2>
-  <h3>His Royal Majesty is back.</h3>
+  <h3>{{hero.subtitle}}</h3>
   <p>
-    America's most unhinged rooster is out of retirement, and this time? He's mad as hell. Experience the unapologetic
-    flavor burst of Rex Goliath.
+    {{hero.description}}
   </p>
-  <ul class="controls">
-    <li>
-      <button class="primary-action">
-        <fa-icon [icon]="faPlay"></fa-icon>
-        <span>Drink</span>
-      </button>
-    </li>
-    <li>
-      <button class="secondary-action">
-        <fa-icon [icon]="faInfoCircle"></fa-icon>
-        <span>More Info</span>
-      </button>
-    </li>
-  </ul>
+  <app-control></app-control>
 </div>

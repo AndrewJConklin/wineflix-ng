@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import {faPlay, faInfoCircle} from '@fortawesome/free-solid-svg-icons';
-import { heroContent } from '../hero-content';
 
 @Component({
-  selector: 'app-hero',
-  templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.css']
+  selector: 'app-control',
+  templateUrl: './control.component.html',
+  styleUrls: ['./control.component.css']
 })
-export class HeroComponent implements OnInit {
-  hero = heroContent
+export class ControlComponent implements OnInit {
   faPlay = faPlay
   faInfoCircle = faInfoCircle
+
   constructor() { }
 
   ngOnInit(): void {
