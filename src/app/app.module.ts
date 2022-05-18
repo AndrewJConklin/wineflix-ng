@@ -13,6 +13,8 @@ import { WineComponent } from './wine/wine.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { ControlComponent } from './control/control.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { AvatarComponent } from './avatar/avatar.component';
+import { NewBadgeComponent } from './new-badge/new-badge.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
     WineComponent,
     KeepDrinkingComponent,
     ControlComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    AvatarComponent,
+    NewBadgeComponent
   ],
   imports: [
     BrowserModule,

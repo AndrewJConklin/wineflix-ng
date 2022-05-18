@@ -2,7 +2,7 @@
   <li *ngFor="let wine of finishedWines">
     <div class="wine">
       <img src="{{wine.imageUrl}}" alt="{{wine.label}}" />
-      <span [class.new-badge]="wine.isNew">New!</span>
+      <app-new-badge [isNew]="wine.isNew"></app-new-badge>
         <div *ngIf="!wine.isFinished" class="amount-consumed">
           <app-progress-bar [value]="wine.progress"></app-progress-bar>
         </div>
