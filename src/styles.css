@@ -1,17 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@400;700&display=swap);
 
-.hero-image{position:absolute;top:0;left:0;right:0;z-index:-1}
-
-.primary-action{background-color:#e6e6e6;color:#0d0d0d}
-
-.secondary-action{background-color:hsla(0,0%,100%,.3);color:#e6e6e6}
-
-.controls li{display:inline;margin-right:12px}
-
-.controls button{border-radius:4px;border:none;padding:12px 32px;font-weight:700;font-size:22px}
-
-.controls button span{display:inline-block;margin-left:20px}
-
 .hero-content{margin-top:200px;margin-bottom:200px}
 
 .hero-content h3{margin-top:24px;margin-bottom:24px;font-size:30px;font-weight:700;text-shadow:1px 1px 1px #333}
