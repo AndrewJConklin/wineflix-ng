@@ -12,6 +12,7 @@ import { LinkComponent } from './link/link.component';
 import { WineComponent } from './wine/wine.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { ControlComponent } from './control/control.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ControlComponent } from './control/control.component';
     LinkComponent,
     WineComponent,
     KeepDrinkingComponent,
-    ControlComponent
+    ControlComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
